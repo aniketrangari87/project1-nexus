@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+section{
+    border-color: rgb(83, 248, 254);
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    max-width: 1280px;
+    min-height: 900px;
+    margin : 0 auto 0 auto ;
+    padding: 10px;
+    background: rgb(0,137,255);
+    background: linear-gradient(121deg, rgba(0,137,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.leftSide{
+    max-width: 450px;
+    padding: 0 40px;
+   
+    padding: 40px 20px ;
+   
+}
+.rightSide{
+
+ background-color: transparent;
+ border-radius: 8px;
+ padding: 0 2px;
+}
+.loginText {
+text-align: center;
+font-size: 35px;
+font-weight: 600 ;
+margin: 30px;
+
+color: rgb(9, 55, 108) ;
+padding: 15px 5px;
+border-radius: 60px;
+font-weight: 500;
+}
+input{
+    padding: 15px;
+    width: 100vw;
+    max-width: 400px;
+    margin: 20px 0 ;
+    border:none;
+    font-size:20px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid  rgba(0, 78, 162, 0.826);
+}
+#form{
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+}
+#submitButton{
+    background-color: rgb(69, 144, 229);
+    color: white  ; 
+    font-size: 20px;
+    width: 150px;
+border-radius: 10px;
+font-size: 20px;
+font-weight: 500;
+    font:400; 
+    border: 1px solid rgb(69, 144, 229) ; 
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .leftSide{
+    max-width: auto ; 
+    padding: 10px;
+   
+}
+input{
+    padding: 15px;
+    width: auto;
+    width: 300px;
+    margin: 20px 0 ;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid  rgba(0, 78, 162, 0.826);
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+  
+img{
+    width: 300px;
+}
+ 
+}
+@media only screen and (max-width:280px) {
+    
+    input{
+        padding: 15px;
+        width: auto;
+        width: 250px;
+        margin: 20px 0 ;
+        border:none;
+        font-size: 15px;
+        outline: none;
+        background-color: transparent;
+        border-bottom: 2px solid  rgba(0, 78, 162, 0.826);
+    }
+    
+    img{
+        width: 250px;
+    }
+
+  }
+  
+  
+
+  
